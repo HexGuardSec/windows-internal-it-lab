@@ -9,16 +9,17 @@
 
 ## 🧩 Overview
 
-This lab simulates **Internal IT operations on a Windows workstation**, focusing on tasks commonly handled by:
+This repository contains a collection of **realistic Internal IT lab scenarios** conducted on a Windows workstation.
 
+The labs simulate daily tasks commonly handled by:
 - Internal IT Engineers
 - IT Support / System Administrators
-- SOC Tier 1 (Windows visibility & basic log analysis)
+- SOC Tier 1 analysts (Windows visibility & basic investigation)
 
-The goal is to demonstrate **hands-on Windows administration skills** in a corporate environment, with an emphasis on:
+The objective is to demonstrate **practical Windows administration skills** in a corporate environment, with a strong focus on:
 - security awareness
 - audit methodology
-- clear documentation
+- clear and professional documentation
 
 ---
 
@@ -26,9 +27,11 @@ The goal is to demonstrate **hands-on Windows administration skills** in a corpo
 
 ### 🔹 01. Basic Internal IT Audit on Windows
 
-A first internal IT audit performed on a standalone Windows system.
+An initial Internal IT audit performed on a standalone Windows workstation.
 
-Covered topics:
+This scenario provides a global overview of the system and establishes a baseline.
+
+**Covered topics:**
 - Local user and group overview
 - Service inspection and status review
 - Event Viewer log analysis (System & Security)
@@ -45,21 +48,17 @@ scenario-01-basic-internal-it-audit/
 
 ### 🔹 02. Local Users & Privileges Audit
 
-An in-depth audit focused on **local user accounts and privilege management** on a Windows workstation.
+An in-depth audit focused on **local user accounts and privilege management**.
 
-This scenario simulates realistic Internal IT tasks, including:
-- baseline user and group audit
-- local user creation via GUI and PowerShell
-- standard vs administrative privilege assignment
-- detection of privilege misconfiguration
-- remediation and final validation
+This scenario simulates common Internal IT tasks related to user provisioning, privilege review, and misconfiguration remediation.
 
-Covered topics:
-- Local Users and Groups (`lusrmgr.msc`)
-- Administrators vs Users groups
+**Covered topics:**
+- Baseline local user and group audit
+- Local user creation via GUI and PowerShell
+- Standard vs administrative privilege assignment
+- Detection of excessive privileges
+- Remediation and final validation
 - Least privilege principles
-- PowerShell-based user provisioning
-- Internal IT audit documentation
 
 📂 Documentation:
 ```
@@ -70,11 +69,35 @@ scenario-02-local-users-privileges-audit/
 
 ---
 
+### 🔹 03. Scheduled Task Abuse Audit
+
+A security-oriented audit scenario focusing on **abuse of Windows Scheduled Tasks** as a persistence mechanism.
+
+This lab follows a realistic Internal IT / Blue Team investigation workflow.
+
+**Covered topics:**
+- Task Scheduler baseline review
+- Identification of a suspicious scheduled task
+- Analysis of task triggers, actions, execution context, and history
+- Risk assessment related to persistence mechanisms
+- Remediation through task removal
+- Final validation and system stability check
+
+📂 Documentation:
+```
+
+scenario-03-scheduled-task-abuse/
+
+```
+
+---
+
 ## 🛠️ Tools & Components Used
 
 - Local Users and Groups (`lusrmgr.msc`)
 - Windows PowerShell
 - Services Manager (`services.msc`)
+- Task Scheduler (`taskschd.msc`)
 - Event Viewer (`eventvwr.msc`)
 - Windows Local Accounts
 - Administrative privileges
@@ -83,9 +106,14 @@ scenario-02-local-users-privileges-audit/
 
 ## 🎯 Purpose
 
-This lab complements Linux-focused projects by demonstrating the ability to operate in a **mixed Linux / Windows internal IT environment**, which is extremely common in real enterprises.
+This lab portfolio complements Linux-focused projects by demonstrating the ability to operate in a **mixed Linux / Windows Internal IT environment**, which is extremely common in real enterprises.
 
-It is designed to serve as a **practical portfolio** for junior-level Internal IT or System Administration roles, emphasizing:
+It is designed to serve as a **practical and professional portfolio** for junior-level:
+- Internal IT Engineers
+- System Administrators
+- SOC Tier 1 analysts
+
+with an emphasis on:
 - operational mindset
 - security awareness
 - structured documentation
