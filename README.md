@@ -40,7 +40,7 @@ This scenario provides a global overview of the system and establishes a baselin
 📂 Documentation:
 ```
 
-scenario-01-basic-internal-it-audit/
+scenarios/01-basic-internal-it-audit/
 
 ```
 
@@ -63,7 +63,7 @@ This scenario simulates common Internal IT tasks related to user provisioning, p
 📂 Documentation:
 ```
 
-scenario-02-local-users-privileges-audit/
+scenarios/02-local-users-privileges-audit/
 
 ```
 
@@ -86,7 +86,30 @@ This lab follows a realistic Internal IT / Blue Team investigation workflow.
 📂 Documentation:
 ```
 
-scenario-03-scheduled-task-abuse/
+scenarios/03-scheduled-task-abuse/
+
+```
+
+---
+
+### 🔹 04. User Account Access Incident (Local Account Disabled)
+
+A realistic **Internal IT support incident** simulating a common user authentication issue on a Windows workstation.
+
+This scenario focuses on **Level 1 / Level 2 troubleshooting**, following a structured incident response workflow used in day-to-day Internal IT operations.
+
+**Covered topics:**
+- Local user account verification
+- Identification of disabled user accounts
+- Use of PowerShell for account status validation
+- Incident root cause analysis
+- Account remediation and access restoration
+- Clear IT support documentation
+
+📂 Documentation:
+```
+
+scenarios/04-user-account-access-incident/
 
 ```
 
