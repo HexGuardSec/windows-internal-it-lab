@@ -113,6 +113,27 @@ scenarios/04-user-account-access-incident/
 
 ```
 
+### 🔹 05. Windows Service Startup Failure Investigation
+
+An Internal IT troubleshooting scenario focused on a **Windows service failing to start after a system reboot**.
+
+This lab simulates a realistic L1/L2 support ticket involving service misconfiguration and log-based analysis.
+
+**Covered topics:**
+- Service status and startup type verification
+- Detection of service startup failure
+- Service Control Manager log analysis
+- Root cause identification
+- Service configuration remediation
+- Post-reboot validation
+
+📂 Documentation:
+```
+
+scenarios/05-windows-service-stratup-failure/
+
+```
+
 ---
 
 ## 🛠️ Tools & Components Used
