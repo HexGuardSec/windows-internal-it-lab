@@ -28,8 +28,8 @@ The system was reviewed using **Local Users and Groups** to identify:
 
 This separation ensures that daily users do not operate with elevated privileges.
 
-📸 Evidence:
-- Local Users and Groups overview
+📸 Screenshots:
+- `screenshots/audit/audit-local-users-groups-overview.png` – Local users and groups overview
 
 ---
 
@@ -43,8 +43,9 @@ The **Services Manager (`services.msc`)** was used to:
 
 This step ensures no unnecessary or suspicious service is running.
 
-📸 Evidence:
-- Services overview
+📸 Screenshots:
+- `screenshots/audit/audit-services-overview.png` – Windows services overview
+
 
 ---
 
@@ -57,5 +58,5 @@ The **Event Viewer (`eventvwr.msc`)** was inspected:
 
 Recent warnings, errors, and login-related events were reviewed to ensure proper logging is enabled.
 
-📸 Evidence:
-- Event Viewer overview
+📸 Screenshots:
+- `screenshots/audit/audit-event-viewer-overview.png` – Event Viewer system and security logs
